@@ -15,17 +15,16 @@
 </section>
 
 {% if stream_rank.time_percentage != 0 and stream_rank.size_percentage != 0 and stream_rank.change_percentage != 0 %}
-
   {% if stream_rank.change_percentage == 200 %}
   <section class="APIDetailStats">
      <h2 class="APIDetailStats__title">Savings With Streamdata.io</h2>
      <div class="APIDetailStats__row">
         <div class="APIDetailStats__statContainer">
-           <p class="APIDetailStats__stat">Relative Rank</p>
+           <p class="APIDetailStats__stat">Variable Rank</p>
         </div>
      </div>
   </section>
-  {% else %}
+  {% endif %}
   <section class="APIDetailStats">
      <h2 class="APIDetailStats__title">Savings With Streamdata.io</h2>
      <div class="APIDetailStats__row">
@@ -43,7 +42,6 @@
         </div>
      </div>
   </section>
-  {% endif %}
 {% endif %}
 
 <section class="APIDescription">
@@ -158,7 +156,7 @@
          </div>
       </div>
       {% endif %}
-      api_json_postman_collection: {{ api_json_postman_collection }}<br />
+
       {% if api_json_postman_collection != '' %}
       <a name="postman"></a>
       <div class="APIDescription__table">
