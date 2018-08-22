@@ -2,7 +2,7 @@
   "info": {
     "name": "New York Times Best Seller List Names",
     "_postman_id": "f594c19b-aafe-448b-861f-2259b9211ea9",
-    "description": "The names service returns a list of Best Sellers list names. It includes in the response the type of list (weekly or monthly) and when it was first published and last published. Lists have been added and removed over time. For example the Food and Diet list was added in 2013 and the Children’s Chapter Books list was removed in 2012. The response also includes the list_name_encoded which you use when calling the details service.",
+    "description": "The names service returns a list of Best Sellers list names. It includes in the response the type of list (weekly or monthly) and when it was first published and last published. Lists have been added and removed over time. For example the Food and Diet list was added in 2013 and the Children???s Chapter Books list was removed in 2012. The response also includes the list_name_encoded which you use when calling the details service.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [

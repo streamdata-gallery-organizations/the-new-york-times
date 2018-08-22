@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Most Emailed by Section & Time Period
+  title: The New York Times Most Emailed by Section & Time Period
   description: With the Most Popular API, you can get links and metadata for the blog
     posts and articles that are most frequently e-mailed, shared and viewed by NYTimes.co
   termsOfService: https://developer.nytimes.com/tou
@@ -260,12 +260,12 @@ paths:
   /books/v2/lists/names.{format}:
     get:
       summary: Best Seller List Names
-      description: "The names service returns a list of Best Sellers list names. It
+      description: The names service returns a list of Best Sellers list names. It
         includes in the response the type of list (weekly or monthly) and when it
         was first published and last published. Lists have been added and removed
-        over time. For example the Food and Diet list was added in 2013 and the Children\u2019s
+        over time. For example the Food and Diet list was added in 2013 and the Children???s
         Chapter Books list was removed in 2012. The response also includes the list_name_encoded
-        which you use when calling the details service."
+        which you use when calling the details service.
       operationId: GET_lists-names-format
       x-api-path-slug: booksv2listsnames-format-get
       parameters:

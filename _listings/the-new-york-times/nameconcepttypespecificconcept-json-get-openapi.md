@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times The Semantic API
+  title: The New York Times The Semantic API
   description: The Semantic API complements the Articles API. With the Semantic API,
     you get access to the long list of people, places, organizations and other locations,
     entities and descriptors that make up the controlled vocabulary used as metadata
@@ -263,12 +263,12 @@ paths:
   /books/v2/lists/names.{format}:
     get:
       summary: Best Seller List Names
-      description: "The names service returns a list of Best Sellers list names. It
+      description: The names service returns a list of Best Sellers list names. It
         includes in the response the type of list (weekly or monthly) and when it
         was first published and last published. Lists have been added and removed
-        over time. For example the Food and Diet list was added in 2013 and the Children\u2019s
+        over time. For example the Food and Diet list was added in 2013 and the Children???s
         Chapter Books list was removed in 2012. The response also includes the list_name_encoded
-        which you use when calling the details service."
+        which you use when calling the details service.
       operationId: GET_lists-names-format
       x-api-path-slug: booksv2listsnames-format-get
       parameters:
@@ -415,7 +415,7 @@ paths:
       - News
   /movies/v2/reviews/search.json:
     get:
-      summary: Move Review Search
+      summary: Movie Review Search
       description: With the Movie Reviews API, you can search New York Times movie
         reviews by keyword and get lists of NYT Critics' Picks.
       operationId: getMoveReviews

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Best Seller History List
+  title: The New York Times Best Seller History List
   description: The Best Sellers history service returns books and their history on
     the NYT Best Sellers lists.
   termsOfService: https://developer.nytimes.com/tou

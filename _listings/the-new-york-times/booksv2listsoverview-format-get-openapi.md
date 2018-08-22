@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Best Seller List Overview
+  title: The New York Times Best Seller List Overview
   description: The overview service returns the top 5 books for all the Best Sellers
     lists.
   termsOfService: https://developer.nytimes.com/tou
